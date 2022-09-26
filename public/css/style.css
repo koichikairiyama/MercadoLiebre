@@ -133,14 +133,19 @@ main h2 {
     width: 20em; 
 }
 
+
 .article i {
     box-sizing: content-box;
     color: #39b54a;
     font-size: 1.5em;
     position: absolute;
-    left: 300px;
-    right: 10px;
-    
+    left: 270px;
+    border: 1px solid #39b54a ;
+    border-radius: 500px;
+    padding: 10px;
+    top: 330px;
+    background-color: rgb(255, 255, 255);
+
 }
 
 .descripciones {
