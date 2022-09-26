@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    box-sizing: border-box;
+    width: 100vw; 
+}
+
+.contHead {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: #eac926;
+    height: 30vh;
+}
+  
+.contLogo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: auto;
+    padding: 3px 0;
+    width: 50vw; 
+} 
+
+.contLogo img {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    display: flex;
+    
+}
+  
+.contSearch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 50%;
+    min-width: 200px;
+    justify-content: center;
+}
+  
+.search {
+    flex-grow: 1;
+    border-width: 0px;
+    padding: 5px;
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    justify-content: center;
+}
+  
+.fa-search {
+    flex-grow: 0;
+    color: #666;
+    padding-right: 5px;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 90vw; 
+    margin:auto
+    
+} 
+
+main h2 { 
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+
+.cards { 
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    background-color: rgb(170, 170, 170);
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.article {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article ul li {
+    list-style: none;
+    flex-grow: 1;
+    background-color: white;
+    padding: 15px;
+} 
+
+.article .detalles .cajachica {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-top: 1px solid black;
+    flex-grow: 1;
+   
+} 
+
+.article .detalles {
+    justify-content: center;
+    padding: 0px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    width: fit-content;
+    position: relative;
+}
+
+.article .imag {
+    width: 20em; 
+}
+
+.article i {
+    box-sizing: content-box;
+    color: #39b54a;
+    font-size: 1.5em;
+    position: absolute;
+    left: 300px;
+    right: 10px;
+    
+}
+
+.descripciones {
+    font-size: 22px;
+}
+
+.cajita {
+    display: flex;
+    flex-direction: row;
+   
+} 
+
+
+.cajita .precios {
+    flex-direction: row;
+    width: 30%;
+    font-size: 18px;
+    
+}
+
+.cajita .descuentos {
+    flex-direction: row;
+    width: 70%;
+    font-size: 18px;
+    color: #39b54a  ;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    background-color: rgb(65, 11, 11);
+    font-size: 16px ;
+    justify-content: center;
+}
+
+.contenedorPadre {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 20px ;
+    width: 100vw;
+    padding: 40px;
+    
+}
+
+.contenedorPadre .hijo {
+    
+    flex-wrap: nowrap;
+    background-color: aliceblue;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    margin: 10px; 
+    width: 90%;
+    height: auto;
+    padding: 20px; 
+}
+
+
+.hijo > * {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hijo i {
+    margin: 10px;
+    font-size: 40px;
+    color:  rgb(4, 0, 255);
+}
+
+@media (min-width: 768px) {
+    .contenedorPadre {
+    
+        flex-direction: row;
+
+    }
+
+}
+
+
+
+
+
+
