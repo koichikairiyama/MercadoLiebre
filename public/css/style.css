@@ -209,7 +209,8 @@ main {
     display: flex;
     flex-direction: column;
     width: 90vw; 
-    margin:auto
+    margin:auto;
+    position:relative;
     
 } 
 
@@ -226,7 +227,7 @@ section {
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     background-color: rgba(42, 1, 61, 0.199);
     padding: 20px;
@@ -238,7 +239,7 @@ article {
     padding: 10px;
     display: flex;
     flex: wrap;
-    
+
 }
 
 
