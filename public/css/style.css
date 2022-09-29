@@ -364,7 +364,7 @@ article:hover i {
 
 footer {
     display: flex;
-    background-color: rgba(112, 151, 38, 0.726);
+    background-color: #eac926;
     font-size: 16px ;
     justify-content: center;
     align-items: center;
@@ -417,7 +417,7 @@ footer {
 }
 
 .hijo i:hover{
-    color: rgb(238, 255, 0);
+    color:  #eac926;
 }
 
 
