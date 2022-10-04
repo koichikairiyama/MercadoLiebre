@@ -59,7 +59,6 @@ header {
     border: 2px solid;
     font-size: 1em;
     font-weight: bolder;
-    width: 400px;
     font-family: "Barlow Condensed", sans-serif;
     
 }
@@ -299,10 +298,8 @@ article {
 .article .detalles {
     justify-content: center;
     padding: 0px;
-
     width: fit-content;
     position: relative;
-    flex-wrap: wrap;
 }
 
 .detalles:hover {
@@ -468,3 +465,7 @@ footer p {
 
 
 }
+
+
+
+
